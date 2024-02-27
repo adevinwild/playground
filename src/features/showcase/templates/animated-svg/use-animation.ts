@@ -8,7 +8,7 @@ export default function useAnimation() {
 
     const timer = setTimeout(() => {
       setStatus("finished");
-    }, 3000);
+    }, 1900);
 
     return () => {
       clearTimeout(timer);

@@ -1,3 +1,4 @@
+import { ComponentIcon, PlayIcon } from "lucide-react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
@@ -6,7 +7,6 @@ import AchievementLink from "./_achievements_link";
 import Providers from "./_providers";
 import SocialLink from "./_social_link";
 import "./globals.css";
-import { ComponentIcon, PlayIcon } from "lucide-react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className="fixed top-3.5 flex items-center justify-between w-full max-w-3xl px-10 h-12 shadow-2xl shadow-black bg-neutral-900 rounded-2xl ring-1 ring-neutral-700 left-1/2 -translate-x-1/2">
+        <nav className="fixed max-w-[90dvw] top-3.5 flex items-center justify-between w-full lg:max-w-3xl px-10 h-12 shadow-2xl shadow-black bg-neutral-900 rounded-2xl ring-1 ring-neutral-700 left-1/2 -translate-x-1/2">
           <Link href="/">
             <div className="flex items-center text-white text-base">
               <PlayIcon className="size-6 text-emerald-400" />

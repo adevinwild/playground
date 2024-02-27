@@ -29,7 +29,7 @@ const AnimatedSVGTemplate = () => {
         (isPlaying || isFinished) && "ring-rose-400 shadow-rose-600/40"
       )}
     >
-      <div className="h-full relative bg-neutral-950 gap-x-5 rounded-lg p-5 flex items-center justify-center">
+      <div className="min-h-80 lg:min-h-min h-full relative bg-neutral-950 gap-x-5 rounded-lg p-5 flex items-center justify-center">
         <Heart
           className={cn(
             "size-32 transition-all [transition-duration:0.5s] fill-transparent stroke-neutral-800",

@@ -4,7 +4,7 @@ import StepperTemplate from "~/features/showcase/templates/stepper";
 
 export default function Page() {
   return (
-    <main className="flex min-h-dvh max-w-4xl mx-auto pt-28 pb-24">
+    <main className="flex min-h-dvh max-w-[90dvw] lg:max-w-4xl mx-auto pt-28 pb-24">
       <div className="flex flex-col gap-y-9 w-full">
         <div className="flex flex-col">
           <h3 className="text-xl font-medium">Components</h3>
@@ -14,7 +14,7 @@ export default function Page() {
           </p>
         </div>
 
-        <div className="w-full h-full flex-grow grid grid-cols-2 gap-6">
+        <div className="w-full h-full flex-grow grid lg:grid-cols-2 gap-6">
           <StepperTemplate />
           <AnimatedSVGTemplate />
           <AnimatedNumberTemplate />
