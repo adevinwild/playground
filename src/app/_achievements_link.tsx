@@ -7,7 +7,7 @@ import { cn } from "~/lib/utils";
 import { useAchievementStore } from "~/stores/achievement-store";
 
 const MAX_ACHIEVEMENTS = 4;
-const AchievementLink = () => {
+const AchievementLink = ({ onClick }: { onClick?: () => void }) => {
   const achievements = useAchievementStore((state) => state.achievements);
 
   const hasAchievements = achievements.length > 0;
@@ -24,6 +24,7 @@ const AchievementLink = () => {
   if (!hasAchievements) return null;
 
   const onShowAchievements = () => {
+    onClick?.();
     const hasUnlockedAll = achievements.length === MAX_ACHIEVEMENTS;
 
     if (!hasUnlockedAll) {
