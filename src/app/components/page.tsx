@@ -1,5 +1,6 @@
 import AnimatedNumberTemplate from "~/features/showcase/templates/animated-number";
 import AnimatedSVGTemplate from "~/features/showcase/templates/animated-svg";
+import FileUploadTemplate from "~/features/showcase/templates/file-upload";
 import StepperTemplate from "~/features/showcase/templates/stepper";
 
 export default function Page() {
@@ -18,6 +19,7 @@ export default function Page() {
           <StepperTemplate />
           <AnimatedSVGTemplate />
           <AnimatedNumberTemplate />
+          <FileUploadTemplate />
         </div>
       </div>
     </main>
