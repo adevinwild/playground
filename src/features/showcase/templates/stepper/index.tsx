@@ -77,7 +77,7 @@ const StepperTemplate = () => {
               rel="noopener noreferrer"
             >
               <Github className="size-4" />
-              Gist
+              Get the code
             </Link>
           </Button>
         </div>

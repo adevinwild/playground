@@ -44,12 +44,12 @@ const FileUploadTemplate = () => {
         <div className="flex gap-x-2 mt-4 ">
           <Button variant="outline" className="max-w-max gap-x-2" asChild>
             <Link
-              href="https://gist.github.com/adevinwild/27fe1063e4a17d680513005ad2b8b97a"
+              href="https://gist.github.com/adevinwild/d8b829f5cdfd01c246af2f338c4f2c27"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Github className="size-4" />
-              Gist
+              Get the code
             </Link>
           </Button>
         </div>
